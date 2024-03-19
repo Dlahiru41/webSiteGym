@@ -198,7 +198,7 @@
 .home-dark-cta {
   top: 5417px;
   left: 20px;
-  width: 1400px;
+  width: 100%;
   height: 564px;
   display: flex;
   overflow: hidden;
@@ -1115,27 +1115,27 @@
   border-radius: 6px;
 }
 .home-dark-navbar {
-  top: 60px;
-  left: 135px;
-  width: 1170px;
-  height: 26px;
+  position: fixed;
+  width: 100vw;
+  height: 5vw;
   display: flex;
   overflow: hidden;
-  position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
+  background-color: black;
+  z-index: 1000;
 }
 .home-dark-group1711 {
-  top: 0px;
-  left: 9px;
+  top: 50%;
+  left: 9%;
   width: 125px;
   height: 26px;
   position: absolute;
 }
 .home-dark-frame4 {
   gap: 48px;
-  top: 4px;
-  left: 624px;
+  top: 50%;
+  left: 60%;
   width: 546px;
   display: flex;
   position: absolute;
@@ -1204,7 +1204,7 @@
 .home-dark-footer {
   top: 6131px;
   left: 235px;
-  width: 975px;
+  width: 100%;
   height: 325px;
   display: flex;
   overflow: hidden;
@@ -1563,6 +1563,14 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
+
+.testimonials-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
 .home-dark-rectangle-copy22 {
   top: 0px;
   left: 0px;
